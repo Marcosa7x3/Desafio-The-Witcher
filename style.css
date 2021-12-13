@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+}
+
+body{
+    height: 100vh;
+    background-image: url(https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=2aa22924-402c-4d35-bcf9-2acd27754d88&api_key=CometServer1&access_token=1635650959_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_ed9737445cf0184a1e490769947b8de97952fa66);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-container{
+    padding-left: 13vw;
+    padding-top: 2vh;
+    display: inline-block;
+}
+
+.logo{
+    width: 4vw;
+}
+
+.title{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8vh;
+  padding-left: 2vw;
+}
+
+.navegacao{
+  display: inline-block;
+  padding-left: 20vw;
+  vertical-align: top;
+  padding-top: 8vh;
+}
+
+li{
+  display: inline;
+  padding-right: 1vw;
+}
+
+li:hover{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+main{
+  height: 86%;
+  background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=7a8c854a-a5c6-4f77-bb53-8c7f1154222c&api_key=CometServer1&access_token=1635650959_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_ed9737445cf0184a1e490769947b8de97952fa66");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.main-image{
+  padding-top: 40vh;
+  margin-left: 40vw;
+}
+
+.main-image img{
+  width: 20vw;
+}
+
+.button img{
+  width: 15vw;
+}
+
+.button{
+  padding-top: 2vh;
+  margin-left: 43vw;
+}
+
+.button img:hover{
+  cursor: pointer;
+}
